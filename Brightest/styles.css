@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Jost', sans-serif;
+    background-color: #050b2f;
+}
+
+#Div-Header{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 6%;
+    left: 20%;
+}
+.A-Header{
+    margin-right: 30px;
+    color: #d4b046; 
+    
+}
+#Brightest-Logo{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+#Div-Header-Esquerta{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#Div-Header-Esquerta{
+    margin-right: 10%;
+    margin-top: 2%;
+
+}
+#A-Zap{
+    position: absolute;
+    top: 6%;
+    right: 18%;
+    color: rgba(40, 241, 120, 1);
+}
+.Borda{
+    border: 1px solid;
+    border-color: #d4b046;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 88%; 
+    height: 83vh;
+}
+#Video{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+#P-Video{
+    display: contents;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+#Borda-S {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88%;
+    border: 1px solid;
+    border-color: #d4b046;
+    height: 55vh;
+    margin-bottom: 15%;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cads {
+    width: 30%;
+    margin: 0;
+}
+
+.flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  .flipper{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+}
+  
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+}
+.flipper{
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+.flipper{
+	position: relative;
+	
+}
+.front, .back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.back{
+	transform: rotateY(180deg);
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+#conheça{
+    border: 1px solid;
+    border-color: #d4b046;
+    width: 88%; 
+    height: 40vh;
+    margin-left: 1%;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 160% ;
+}
+#h1-conheça{
+    font-size: 300%;
+    margin-left: 23%;
+    color: #d4b046;
+}
+#posi-conhceça{
+    display: flex;
+    justify-content: center;
+}
+#conheça-img{
+    margin-left: 3%;
+}
+#p-conheça{
+    font-weight: bold;
+    margin-left:2%;
+    color: #d4b046;
+}
+#footer{
+    position: absolute;
+    top: 215%;
+    width: 99.8%; 
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+   
+}
+hr{
+    border-style: solid;
+    border-color: #d4b046;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    margin-top: 46%;
+}
+
+.acompanhe
+{
+    color: #d4b046;
+}
+
+.whats
+{
+    color: #d4b046;
+}
+
+#ctt
+{
+    color: #d4b046;
+}
+
+.atendimento
+{
+    color: #d4b046;
+}
+
+.dias
+{
+    color: #d4b046;
+}
+
+#central
+{
+    color: #d4b046;
+}
